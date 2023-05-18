@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+/*reset css*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*bỏ gạch chân tất cả link liên kết và để chữ màu đen*/
+section {
+    width: 459px;
+    height: 400px;
+    margin-left: 185px;
+}
+
+/* wrapper */
+section header {
+    width: 960px;
+    margin: 0%;
+}
+
+/* Menu */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    width: 111px;
+    height: 54px;
+}
+
+.header ul {
+    float: left;
+    height: 100%;
+    display: inline;
+    margin: 19px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header ul li {
+    display: inline;
+    margin: 1px;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    padding-left: 25px;
+}
+
+
+
+/*Đặt kích thước cho khối to section và dịch lề trái 185px*/
+article {
+    width: 153px;
+    height: 190px;
+    float: left;
+    padding-right: 8px;
+}
+
+/*Đặt kích thước cho các khối nhỏ và căn trái */
+article img {
+    width: 153px;
+    height: 114px;
+}
+
+/*Đặt kích thước cho các ảnh trong khối nhỏ*/
+article p {
+    font-family: arial;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+/*Đặt kích thước cho ảnh trong khối to*/
+ul {
+    margin-top: 5px;
+    margin-bottom: 17px;
+}
+
+/*Căn lề dưới và lề trên cho ul*/
+ul li {
+    margin-right: 15px;
+    display: inline;
+    font-size: 12px;
+    font-style: italic;
+}
+
+/*Định dạng danh sách */
+
+div h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/*Đặt kích thước cho thẻ h2 trong khối div và dãn lề dưới */
+div p {
+    font-size: 14px;
+}
+
+/*i {
+    color: gray;
+    font-size: 12px;
+}*/
